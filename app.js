@@ -1,7 +1,7 @@
 (() => {
   document.documentElement.classList.add('js');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const targets = document.querySelectorAll('.headline, .hero-bottom, .about-grid, .interest-heading, .interest, .games-heading, .game-frame, .life-content');
+  const targets = document.querySelectorAll('.headline, .hero-bottom, .about-grid, .interest-heading, .interest, .life-content');
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => entries.forEach(entry => {
       if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
