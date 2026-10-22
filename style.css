@@ -14,3 +14,6 @@ body{background:var(--bg);color:var(--fg)}
 @media(prefers-reduced-motion:reduce){.red-void{animation:none}}
 @media(max-width:700px){.hero h1,.hero-sub{transform:translateY(-10vh)}}
 .life:before{opacity:.36}
+/* Align the published hero with the selected concrete concept. */
+.header{padding-top:29px}.header-note{margin-left:auto;margin-right:5vw;letter-spacing:.16em}.hero{display:block;padding-top:0}.hero-meta{top:22%;left:3.5%;right:3.5%}.hero h1{position:absolute!important;z-index:7;top:27%;left:3.5%;margin:0;transform:none}.hero-sub{position:absolute!important;z-index:7;top:75%;left:3.5%;margin:0;transform:none}.hero-baseline{bottom:14%;left:3.5%;right:3.5%;padding:0;height:1px;border-top:1px solid #a7a99f54}.hero-bottom{left:3.5%;right:3.5%;bottom:3%;}.scroll-link{display:flex;flex-direction:column;align-items:start;gap:4px;line-height:1.3}.scroll-count{font-size:10px;letter-spacing:.14em;color:#d0d0c8}.hero-bottom .intro{justify-content:center}
+@media(max-width:700px){.header{padding-top:21px}.hero-meta{top:22%;left:5%;right:5%}.hero h1{top:28%;left:5%;transform:none}.hero-sub{top:49%;left:5%;transform:none}.hero-baseline{left:5%;right:5%;bottom:20%}.hero-bottom{left:5%;right:5%;bottom:3%}}
