@@ -9,7 +9,7 @@
     targets.forEach((el, i) => { el.classList.add('reveal'); if(i < 3) el.style.transitionDelay = `${i * 110}ms`; observer.observe(el); });
   }
   if (window.gsap && !reduced) {
-    gsap.from('.long-rule', {scaleX:0, transformOrigin:'left', duration:1.3, delay:.2, ease:'power3.inOut'});
+    gsap.from('.red-void', {opacity:0, scaleY:.76, transformOrigin:'center', duration:1.5, delay:.2, ease:'power2.out'});
     gsap.from('.header > *', {y:-12, opacity:0, duration:.8, stagger:.12, ease:'power2.out'});
   }
   let frame = false;
